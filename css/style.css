@@ -1,20 +1,37 @@
-  * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-      body {
-        height: 100vh;
-      }
+  :root {
+    /* Typography */
+    --font-family: Inter, sans-serif;
+    --font-regular: 400;
+    --font-semibold: 600;
+    --font-size-lg: 2.25rem;
+    --font-size-md: 1.5rem;
+    --font-size-sm: 1rem;
+    --txt-clr: #030616;
+    --line-height-base: 1.6;
+    --anchor-clr: #4E80EE;
+    /* Background */
+    --primary-bg: #D2D5DA;
+    --header-bg: #FFFFFF;
+    --faq-content-bg: #F8FAFC
+  }
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+  body {
+    height: 100vh;
+  }
 
-      .author-info a {
-        text-decoration: none;
-      }
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
