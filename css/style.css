@@ -30,6 +30,13 @@
     background-color: var(--primary-bg);
   }
 
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
   .author-info {
     font-size: 14px;
     text-align: center;
