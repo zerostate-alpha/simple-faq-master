@@ -84,6 +84,11 @@
     border-top: 1px solid var(--primary-bg) 
   }
 
+  .faq-section a {
+    color: var(--anchor-clr);
+    text-decoration: none;
+  }
+
   .author-info {
     font-size: 14px;
     text-align: center;
