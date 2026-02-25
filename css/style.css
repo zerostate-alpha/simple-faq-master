@@ -36,6 +36,13 @@
     height: 100vh;
   }
 
+  .faq-header, .faq-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2.25rem;
+    gap: 1rem;
+  }
+
   .author-info {
     font-size: 14px;
     text-align: center;
