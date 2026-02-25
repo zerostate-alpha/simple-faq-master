@@ -20,7 +20,7 @@
     /* Background */
     --primary-bg: #D2D5DA;
     --header-bg: #FFFFFF;
-    --faq-content-bg: #F8FAFC
+    --faq-content-bg: #F8FAFC;
   }
 
   body {
@@ -59,6 +59,10 @@
     font-size: var(--font-size-sm);
     font-weight: var(--font-regular);
     line-height: 1.2;
+  }
+
+  .faq-content {
+    background-color: var(--faq-content-bg);
   }
 
   .faq-section {
