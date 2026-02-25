@@ -24,6 +24,10 @@
 
   body {
     height: 100vh;
+    line-height: var(--line-height-base);
+    font-family: var(--font-family);
+    color: var(--txt-clr);
+    background-color: var(--primary-bg);
   }
 
   .author-info {
