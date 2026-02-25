@@ -16,7 +16,7 @@
     --txt-clr: #030616;
     --line-height-base: 1.6;
     --anchor-clr: #4E80EE;
-    
+
     /* Background */
     --primary-bg: #D2D5DA;
     --header-bg: #FFFFFF;
@@ -59,6 +59,12 @@
     font-size: var(--font-size-sm);
     font-weight: var(--font-regular);
     line-height: 1.2;
+  }
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .author-info {
