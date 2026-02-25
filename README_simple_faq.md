@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](/design/faq-page.png)
+![screenshot](design/faq-page.png)
 
 <!--
 - What have you learned/improved?
