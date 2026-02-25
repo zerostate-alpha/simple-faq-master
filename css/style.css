@@ -71,6 +71,13 @@
     gap: 1.5rem;
   }
 
+  .faq-list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem ;
+    gap: 1rem;
+  }
+
   .author-info {
     font-size: 14px;
     text-align: center;
