@@ -43,6 +43,11 @@
     gap: 1rem;
   }
 
+  .faq-header {
+    text-align: center;
+    background-color: var(--header-bg);
+  }
+
   .author-info {
     font-size: 14px;
     text-align: center;
