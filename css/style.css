@@ -70,6 +70,11 @@
     gap: 1.5rem;
   }
 
+  .faq-heading {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-semibold);
+  }
+
   .faq-list{
     display: flex;
     flex-direction: column;
