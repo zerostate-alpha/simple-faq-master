@@ -23,7 +23,9 @@
   }
 
   body {
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     line-height: var(--line-height-base);
     font-family: var(--font-family);
     color: var(--txt-clr);
@@ -31,9 +33,9 @@
   }
 
   main {
+    flex: 1;             
     display: flex;
     justify-content: center;
-    height: 100vh;
   }
 
   .faq-header, .faq-content {
