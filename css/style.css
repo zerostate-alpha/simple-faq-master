@@ -106,3 +106,12 @@
   .author-info a {
     text-decoration: none;
   }
+
+/* larger screens */
+@media only screen and (min-width: 1024px) {
+
+  .faq-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
