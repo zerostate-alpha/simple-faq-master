@@ -38,6 +38,11 @@
     justify-content: center;
   }
 
+ .faq-container {
+    width: 100%;
+    background-color: var(--faq-content-bg);
+  }
+
   .faq-header, .faq-content {
     display: flex;
     flex-direction: column;
